@@ -1852,6 +1852,64 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
+		(uuid "52f8a99a-9d72-46b0-a4a5-08030b92feb5")
+		(name "Eurocard Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 222.758 125.73) (xy 222.758 128.27) (xy 62.738 128.27) (xy 62.738 125.73)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
+		(uuid "dc383972-6e81-4e9a-8a12-77bc63882bfd")
+		(name "Eurocard Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 222.758 28.194) (xy 222.758 30.734) (xy 62.738 30.734) (xy 62.738 28.194)
+			)
+		)
+	)
 	(group "group-boardStackUp"
 		(uuid "942bfb0e-0429-4dc0-a915-e3627e87b2c1")
 		(members "03061cc7-0b2f-463e-a6a6-c8d59f4a2f0c" "03b93fd9-efb4-45c4-93e8-0a994965727a"
